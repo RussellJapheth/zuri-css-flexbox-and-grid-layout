@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lexend Deca";
+}
+
+main {
+    font-size: 15px;
+    display: flex;
+    place-content: center;
+    padding: 50px;
+}
+
+section {
+    width: 300px;
+    padding: 15px;
+}
+
+.card-one {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.card-two {
+    background: hsl(184, 100%, 22%);
+}
+
+.card-three {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.card-one a {
+    color: hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+}
+
+.card-two a {
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+}
+
+.card-three a {
+    color: hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+}
+
+.card-one a:hover {
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card-two a:hover {
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card-three a:hover {
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card-text {
+    color: hsl(0, 0%, 100%, 0.75);
+    line-height: 30px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width:948px) {
+    main {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .card-one {
+        background: hsl(31, 77%, 52%);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .card-three {
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0px;
+    }
+}
